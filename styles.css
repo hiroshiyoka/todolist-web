@@ -1,0 +1,64 @@
+body {
+    background-color: #e0e1dc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todo-wrapper {
+    margin-top: 50px;
+    background-color: #7d8da6;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 350;
+}
+
+.todo-wrapper h1 {
+    margin: 0;
+    color: #e0e1dc;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    color: #e0e1dc;
+    margin: 12px 0;
+}
+
+.todo-wrapper ol {
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper form {
+    display: inline-block;
+}
+
+.todo-wrapper input {
+    padding: 3px 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #e0e1dc;
+    color: #1e2538;
+}
+
+.todo-wrapper .pretty-button {
+    margin: 10px 2px;
+    padding: 3px 10px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #e0e1dc;
+    color: #1e2538;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.todo-wrapper .pretty-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

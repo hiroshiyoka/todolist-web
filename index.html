@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-wrapper">
+        <h1>My To Do List</h1>
+        <p>Double-click an item to mark it complete.</p>
+        <form name="todo-adder">
+            <input type="text" id="todo-entry-box">
+        </form>
+        <button id="add-button" class="pretty-button" id="add-button">Add</button>
+        <br>
+        <ol id="todo-list"></ol>
+        <div id="control-wrapper">
+            <div class="pretty-button" id="todo-complete">Complete</div>
+            <div class="pretty-button" id="todo-remove">Remove</div>
+            <div class="pretty-button" id="todo-delete">Delete</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
